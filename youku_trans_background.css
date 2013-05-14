@@ -1,0 +1,150 @@
+@namespace url(http://www.w3.org/1999/xhtml);
+
+@-moz-document domain("v.youku.com"),domain("www.youku.com"),domain("game.youku.com"),
+domain("www.soku.com") {
+body 
+{
+background-image:url(file:///h:/%E5%A3%81%E7%BA%B8/youku.jpg) !important;
+background-repeat:no-repeat;
+background-attachment:fixed !important
+}
+
+* a:link {
+color:#4e4e4e!important;
+text-decoration:none!important;
+}
+
+* a:visited {
+color:#888888!important;
+text-decoration:none!important;
+}
+
+* a:hover {
+color:#002060!important;
+
+background-color:rgba(255,255,255,0) !important;
+}
+
+/*导航栏*/
+.prinav {
+   background-color:rgba(255,255,255,0) !important;
+}
+.header {
+   background-color:rgba(255,255,255,0) !important;
+}
+.typechk {
+   background-color:rgba(255,255,255,0) !important;
+}
+.footerbox {
+   background-color:rgba(255,255,255,0) !important;
+}
+
+#miniheader{
+   display:none!important;
+}
+.head {
+   background:none!important;
+}
+.sideCol .head {
+   background:none!important;
+}
+
+.module a{
+   background-color:transparent!important;
+}
+
+/*搜索框部分*/
+.sokutool button {
+background:RGB(85,142,213)!important;
+color:RGB(245,245,245)!important;
+value:hi!important;
+}
+.sokutool button:after {
+   content:"搜索"!important;
+}
+.sokutool input {
+   background-color:transparent!important;
+   border-color:write!important;
+}
+
+.body
+{
+   background-color:rgba(255,232,130,0) !important;
+}
+
+/*主体部分*/
+.collfocus 
+{
+   background-color:rgba(255,232,130,0) !important;
+   color:rgb(0,0,255) !important;
+}
+.row_index
+{
+   background-color:rgba(255,232,130,0) !important;
+}
+.box 
+{
+   background-color:rgba(255,232,130,0) !important;
+}
+.s_body
+{
+   background-color:rgba(255,232,130,0) !important;
+   color:#025dd0 !important;
+}
+.item, .dhandle
+{
+   background-color:rgba(255,232,130,0) !important;
+}
+.commentTextArea
+{
+   color:RGB(85,85,85)!important;
+}
+#tab_inner
+{
+display:none!important;
+}
+
+
+/*页尾*/
+.footerbox
+{
+   display:none!important;
+}
+#footSearchForm .so
+{
+   display:none!important;
+}
+
+.links
+{
+   display:none!important;
+}
+#vphotofficial
+{
+   display:none!important;
+}
+.returntop
+{
+   display:none!important;
+}
+#hotVideoBox
+{
+   display:none!important;
+}
+.row_index_head {
+     background:none!important;
+}
+.title  {
+     background:none!important;
+}
+.row_index_head .title:after {
+   content:"为我推荐"!important;
+   font-size:20px !important;
+   color:#4e4e4e!important;
+}
+#MYYOUKU .caption{
+     background:none!important;
+}
+}
+
+

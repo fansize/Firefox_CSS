@@ -1,0 +1,129 @@
+﻿@namespace url(http://www.w3.org/1999/xhtml);
+@-moz-document domain("www.baidu.com") {
+
+/*背景图片*/
+html{
+background:
+    -moz-linear-gradient(left,rgba(255,255,255,.3),rgba(0,0,0,.3) ),
+    url(file:///h:/%E5%A3%81%E7%BA%B8/firefire.jpg) no-repeat center center fixed!important;
+	background-size:100% auto !important;	
+}
+body{
+	background:transparent !important;
+}
+
+#m {
+    position:absolute;
+    top:150px;
+}
+/*主logo替换*/
+#lg{
+	background-image: url(file:///h:/%E5%A3%81%E7%BA%B8/icons/%E6%96%B0/%E7%99%BE%E5%BA%A6.png);
+	background-repeat: no-repeat !important;
+	background-position: center center !important;
+	opacity:1 !important;
+}
+#lg img{
+	opacity:0 !important;
+}
+#nv a, #lk a{
+text-decoration:none!important;
+color:RGB(255,255,255)!important;
+}
+#nv a:hover, #lk a:hover{
+color:#4e4e4e!important;
+text-shadow:0 2px 2px rgba(78,78,78,.2)!important;
+}
+
+* a:hover {
+color:#002060!important;
+text-shadow:0 2px 2px rgba(78,78,78,.2)!important;
+}
+
+
+/*隐藏搜索页面的logo*/
+.s_logo img{
+	display:none!important;
+}
+
+/*搜索标题*/
+#s_tab a{
+	font-family: "Microsoft Yahei",sans-serif !important; 
+	text-decoration:none!important;
+	color:RGB(255,255,255)!important;
+}
+
+/*搜索框*/
+#fm .s_ipt_wr{
+	background:transparent!important;
+	border-color:RGB(129,129,129)!important;
+}
+#fm .s_ipt_wr input {
+    background:transparent!important;
+}
+.fm .s_ipt_wr{
+	background:transparent!important;
+	border-color:RGB(129,129,129)!important;
+}
+.fm .s_ipt_wr input {
+    background:transparent!important;
+}
+.fm .tools {
+    display:none!important;
+}
+#search{
+	display:none!important;
+}
+#foot {
+    display:none!important;
+}
+
+/*搜素按钮(主页面,搜索页面)*/
+#fm .s_btn_wr{
+	background:transparent!important;
+}
+#fm .s_btn{
+	background:RGB(85,142,213)!important;
+	color:RGB(255,255,255)!important;
+	font-family: "Microsoft Yahei",sans-serif !important; 
+	font-size:13px!important;
+}
+#head .s_btn_wr{
+	background:transparent!important;
+}
+#head .s_btn{
+	background:RGB(85,142,213)!important;
+	color:RGB(255,255,255)!important;
+	font-family: "Microsoft Yahei",sans-serif !important; 
+	font-size:13px!important;
+}
+#search .s_btn_wr{
+	background:transparent!important;
+}
+#search .s_btn{
+	background:RGB(85,142,213)!important;
+	color:RGB(255,255,255)!important;
+	font-family: "Microsoft Yahei",sans-serif !important; 
+	font-size:13px!important;
+}
+
+/*搜索页面底部元素透明*/
+#rs{
+	background:transparent !important;
+}
+#foot{
+	background:transparent !important;
+}
+#page a{
+	background:transparent !important;
+}
+#ftCon {
+  display:none!important;
+}
+#bdTgxtt {
+display:none!important;
+}
+
+
+
+}
